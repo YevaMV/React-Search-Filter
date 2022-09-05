@@ -2,7 +2,7 @@ import Item from './Item';
 
 function List(props) {
   return (
-    <ul>
+    <div>
       {props.countries.map((country) => {
         return (
           <Item
@@ -13,7 +13,7 @@ function List(props) {
           />
         );
       })}
-    </ul>
+    </div>
   );
 }
 
